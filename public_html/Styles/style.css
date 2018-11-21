@@ -183,6 +183,15 @@ img{
     animation-duration: 1.5s;
 }
 
+footer{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    
+}
+
 @-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
