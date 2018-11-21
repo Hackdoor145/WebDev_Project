@@ -3,9 +3,6 @@ body{
     background-color: #1a1a1a;
     font-family: Verdana, sans-serif;
 }
-#topAnchor{
-    top: -50px;
-}
 .main{
     color: white;
     text-align: center;
@@ -43,23 +40,39 @@ body{
 .topics ul{
     text-align: center;
 }
+.profile{
+    font-size: 12pt;
+}
 .profile img{
     width: 500px;
     height: 500px;
-    margin: 15px auto;
+    padding: 0;
+    margin: 0px 20px 10px 50px;
+    text-align: left;
     float: left;
 }
-.profile p{
+.profile h1{
+    font-size: 36pt;
+}
+.profile h2{
+    display: block;
     text-align: left;
+}
+.profile p,ul{
+    text-align: left;
+}
+.profile ul{
+    list-style-type: none;
+    display: block;
+}
+.profile .iconImg{
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    float: none;
 }
 h1{
     font-size: 50pt;
-}
-#mainProfile p{
-    left: 0;
-}
-#mainProfile h1{
-    font-size: 34pt;
 }
 footer{
     height: 40px;
