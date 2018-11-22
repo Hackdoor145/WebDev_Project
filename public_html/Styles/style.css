@@ -30,8 +30,8 @@ body{
     color: black;
 }
 .topics img{
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin: 15px 15px;
 }
 .topics p{
@@ -100,7 +100,7 @@ hr{
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
     padding-top: 60px;
@@ -110,6 +110,13 @@ hr{
     margin: 5px auto;
     border: 1px solid #888888;
     width: 80%;
+    height: 90%;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
 }
 .popUpClose{
     position: absolute;
@@ -121,10 +128,23 @@ hr{
 }
 .popUpText{
     text-align: center;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.8);
+    padding: 5px 0 5px 0;
 }
 .popUpImage{
     width: 100%;
     height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
 }
 .projectsImages{
     margin: 0.5vw;
@@ -138,8 +158,8 @@ hr{
     display: flex;
 }
 .projectsImages img{
-    width: 100%;
-    height: auto;
+    width: 60vw;
+    height: 60vw;
 }
 .projectsImage{
     -webkit-box-flex: auto;
@@ -162,6 +182,42 @@ div img{
     width: 100%;
     height: 80%;
 }
+.myButton {
+    -moz-box-shadow:inset 0px 1px 3px 0px #404040;
+    -webkit-box-shadow:inset 0px 1px 3px 0px #404040;
+    box-shadow:inset 0px 1px 3px 0px #404040;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #8c8c8c));
+    background:-moz-linear-gradient(top, #666666 5%, #8c8c8c 100%);
+    background:-webkit-linear-gradient(top, #666666 5%, #8c8c8c 100%);
+    background:-o-linear-gradient(top, #666666 5%, #8c8c8c 100%);
+    background:-ms-linear-gradient(top, #666666 5%, #8c8c8c 100%);
+    background:linear-gradient(to bottom, #666666 5%, #8c8c8c 100%);
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #404040;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8c8c8c), color-stop(1, #666666));
+    background:-moz-linear-gradient(top, #8c8c8c 5%, #666666 100%);
+    background:-webkit-linear-gradient(top, #8c8c8c 5%, #666666 100%);
+    background:-o-linear-gradient(top, #8c8c8c 5%, #666666 100%);
+    background:-ms-linear-gradient(top, #8c8c8c 5%, #666666 100%);
+    background:linear-gradient(to bottom, #8c8c8c 5%, #666666 100%);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
 
 
 
@@ -174,6 +230,10 @@ div img{
     display: none;
 }
 img{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 0px solid #000000;
     vertical-align: middle;
 }
 
@@ -247,7 +307,7 @@ footer{
     text-align: center;
     background-color: #333333;
     color: white;
-    
+
 }
 
 @-webkit-keyframes fade {
