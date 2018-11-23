@@ -8,29 +8,53 @@
     </head>
     <body>
         <div class="navBar">
-            <a href="index_hugo.html">Home</a>
+            <a href="index_miguel.html">Home</a>
         </div>
 
         <div class="main">
             <div class="profile">
                 <h1> Info </h1>
-                <img src="images/miguel_profile.jpg" alt="miguelPhoto"/>
-                <h2> Miguel Salgueiro, 23 anos <br> 3D Artist </h2>
-                <p> Student at Instituto Politécnico de Leiria of Video Games and Digital Multimedia.<br>
-                    I have 4 years of 3D modelling experience and 1 year in game development. <br><br>
-                    Some experience in: <ul> <li> &nbsp; Blender </li>
-                    <li> &nbsp; Cinema 4D </li>
-                    <li> &nbsp; 3DS Max </li>
-                    <li> &nbsp; Maya </li>
-                </ul>
+                <div class="imgFrame">
+                    <img src="images/miguel_profile.jpg" alt="miguelPhoto"/>
+                </div>
+                <div class="infoDiv">
+                    <h2> Miguel Salgueiro, 23 anos <br> 3D Artist </h2>
+                    <p> Student at Instituto Politécnico de Leiria of Video Games and Digital Multimedia.<br>
+                        I have 4 years of 3D modelling experience and 1 year in game development. <br><br>
+                        Some experience in: <ul> <li> &nbsp; Blender </li>
+                        <li> &nbsp; Cinema 4D </li>
+                        <li> &nbsp; 3DS Max </li>
+                        <li> &nbsp; Maya </li>
+                    </ul>
+                    <br>
+                    <h2> Contacts: </h2>
+                    <ul>
+                        <li> <img src="images/artstationicon.png" class="iconImg" alt="artstation_icon">@ miguelsalgueiro</li>
+                        <li> <img src="images/twitterIcon.png" class="iconImg" alt="twitter_icon">@MiguelAlexSalg </li>
+                    </ul>
+                </div>
                 <br>
-                <h2> Contacts: </h2>
-                <ul>
-                    <li> <img src="images/artstationicon.png" class="iconImg" alt="artstation_icon">@ miguelsalgueiro</li>
-                    <li> <img src="images/twitterIcon.png" class="iconImg" alt="twitter_icon">@MiguelAlexSalg </li>
-                </ul>
+                <h1> Favourite Projects </h1>
+
+                <div class="imageFrame">
+                    <img src="images/miguel_work1.jpg" class="profileProjectsImage" alt="Final project of vocational course of Multimedia, a 3D animation made in Blender."/>
+                </div>
+                <div class="imageFrame">
+                    <img src="images/miguel_work2.jpg" class="profileProjectsImage" alt="Personal project, from the anime Dragon Ball I made three of the seven Dragon Ball's that can grant wishes."/>
+                </div>
             </div>
-            <!--<script src="JavaScript.js" type="text/javascript"></script>-->
+                    <a href="projects_miguel.html" class="myButton"> More Projects </a>
+
         </div>
-    </body>
+
+    <div id="popUpBox" class="popUpBox">
+        <span class="popUpClose">&times;</span>
+        <div class="popUpContent">
+
+            <img src="images/blank.png" alt="popUpImage" class="popUpImage">
+            <div class="popUpText"> I shouldnt be here </div>
+        </div>
+    </div>
+    <script src="profile.js" ></script>
+</body>
 </html>
