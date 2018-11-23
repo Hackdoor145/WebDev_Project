@@ -15,6 +15,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 .navBar a{
     float: left;
@@ -31,7 +32,7 @@ body{
 }
 .topics img{
     width: 600px;
-    height: 400px;
+    height: 500px;
     margin: 15px 15px;
 }
 .topics p{
@@ -90,6 +91,11 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right, #333333, white, #333333);
     clear: both;
+}
+.infoDiv div{
+    width: 300px;
+    height: 200px;
+    
 }
 
 .popUpBox{
