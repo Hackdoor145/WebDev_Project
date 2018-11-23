@@ -66,7 +66,6 @@ body{
     font-size: 36pt;
 }
 .profile h2{
-    display: block;
     text-align: left;
 }
 .profile p,ul{
@@ -79,7 +78,7 @@ body{
 .profile .iconImg{
     width: 32px;
     height: 32px;
-    margin: 0 10px;
+    margin: 0 5px;
     float: none;
 }
 .profileProjects img{
@@ -103,11 +102,13 @@ hr{
     clear: both;
 }
 .infoDiv div{
-    width: 300px;
-    height: 200px;
-    
+    max-width: 80%;
+    max-height: 600px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
 }
-
 .popUpBox{
     display: none;
     position: fixed;
@@ -176,15 +177,15 @@ hr{
     display: flex;
 }
 .projectsImages img{
-    width: 60vw;
-    height: 60vw;
+    width: 40vw;
+    height: 40vw;
 }
 .projectsImage{
     -webkit-box-flex: auto;
     -ms-flex: auto;
     flex: auto;
     width: 200px;
-    margin: 0.5vw;
+    margin: 1vw 2vw;
 }
 .imageText {
     color: #f2f2f2;
@@ -346,6 +347,23 @@ footer{
     .prev, .next,.text {font-size: 11px}
 }
 
-@media screen and (max-width: 400px){
-    
+@media screen and (max-width: 970px){
+    .p{
+        font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .profile h2{
+        clear: both;
+        text-align: center;
+    }
+    .imgFrame{
+        max-width: 80%;
+        max-height: 600px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+    }
 }
