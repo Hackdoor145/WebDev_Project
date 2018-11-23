@@ -17,7 +17,9 @@
         <div class="main">
             <div class="topics">
                 <h1> About </h1>
-                <a href="profile_hugo.html"><img src="images/hugo.jpg" alt="hugo_profile"/></a>
+                <div class="imageFrame">
+                    <a href="profile_hugo.html"><img src="images/hugo.jpg" alt="hugo_profile"/></a>
+                </div>
                 <h2> Hugo Rodrigues, 19 anos <br> Programador </h2>
                 <br>
                 <hr>
@@ -49,7 +51,7 @@
 
                 </div>
 
-                <div style="text-align:center">
+                <div class="dots">
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
                     <span class="dot" onclick="currentSlide(3)"></span> 
@@ -94,6 +96,5 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
-        <!--<script src="JavaScript.js" type="text/javascript"></script>-->
     </body>
 </html>
