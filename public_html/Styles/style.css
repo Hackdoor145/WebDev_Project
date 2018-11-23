@@ -122,11 +122,13 @@ hr{
     padding-top: 60px;
 }
 .popUpContent{
+    max-width: 80%;
+    max-height: 90%;
+    position: relative;
+    margin: auto;
+    text-align: center;
     background-color: #fefefe;
-    margin: 5px auto;
     border: 1px solid #888888;
-    width: 80%;
-    height: 90%;
     border-radius: 10px 10px 0px 0px;
     -moz-border-radius: 10px 10px 0px 0px;
     -webkit-border-radius: 10px 10px 0px 0px;
@@ -163,7 +165,7 @@ hr{
     -webkit-border-radius: 10px 10px 0px 0px;
 }
 .projectsImages{
-    margin: 0.5vw;
+    margin: 20px;
     font-size: 0;
     display: -ms-flexbox;
     -ms-flexbox-wrap: wrap;
@@ -345,10 +347,5 @@ footer{
 }
 
 @media screen and (max-width: 400px){
-    .projectsImage{
-        margin: 0;
-    }
-    .projectsImages{
-        padding: 0;
-    }
+    
 }
